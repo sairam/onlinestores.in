@@ -1,0 +1,71 @@
+- require 'yaml'
+html
+  head
+    link{href="style.css" rel='stylesheet'}
+    script{type='text/javascript' src='http://code.jquery.com/jquery-1.7.2.min.js'}
+    script[src="https://raw.github.com/tuupola/jquery_lazyload/master/jquery.lazyload.min.js" type="text/javascript"]
+    script{type='text/javascript' src='search.js'}
+    script[src="http://www.google.com/jsapi" type="text/javascript"]
+    link{rel="canonical" href="http://onlinestores.bitgeek.in/"}
+    title Onlinestores in India (Search by keyword)
+    meta[http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"]
+    meta[name="Keywords" content="buy books online, online book store, online shopping india, online shopping website, online shopping store, buy music online, india online stores, online stores, mp3, download, telugu music, english music, india" ]
+    meta[name="Description" content="onlinestores.bitgeek.in: One stop list of Online Shopping Stores to buy Books, Mobiles, Cameras, Games, DVDs, Shoes, Clothing, Bags, Jewellery online. Free Shipping in India. Pay Cash on Delivery. Online Shopping Website to buy books, mobile phones, electronics in India. Online book store, mobile store, game store, music store in India."]
+    meta[property="og:title" content="Online Shopping Stores in India"]
+    meta[property="og:type" content="product"]
+    meta[property="og:description" content="List of online shops in India - Books, Mobiles, Cameras, Games, DVDs, Shoes, Clothing, Bags, Jewellery, Baby Products . All India FREE Shipping. Cash on Delivery"]
+
+    javascript:
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-15090310-5']);
+      _gaq.push(['_setDomainName', '.bitgeek.in']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  body
+    header
+      a{href='http://onlinestores.bitgeek.in/'}
+        h1 Online Stores in India
+      form{method='post' action='getsite.php'}
+        input#submit_new{type='text' placeholder='Submit new site' name='site'}
+      input.search#search{type='text' placeholder='Search Sites'}
+      span#search_counter
+      #cse[style="width: 100%;"] Loading
+      javascript:
+        google.load('search', '1', {language : 'en', style : google.loader.themes.SHINY});
+        google.setOnLoadCallback(function() {
+          var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+            '000374005493084282819:bud5as2tytm', customSearchOptions);
+          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+          var options = new google.search.DrawOptions();
+          options.setAutoComplete(true);
+          customSearchControl.setAutoCompletionId('000374005493084282819:bud5as2tytm+qptype:1');
+          customSearchControl.draw('cse', options);
+        }, true);
+
+    - YAML::load( File.open( 'websites.yaml' ) ).each do |item|
+      .item
+        h4= site = item['site']
+        - image = site.gsub('/','-')
+        - # http://support.google.com/googleanalytics/bin/answer.py?hl=en&answer=55578
+        - utm_args = "utm_source=bitgeek&utm_medium=bitgeek-marketing&utm_term=online%2Bstores%2Bindia&utm_campaign=bitgeek-inc"
+        .aimg
+          a{href="http://#{site}?#{utm_args}" rel='none' target='_blank'}
+            img.thumbnails.lazy{data-original="images/#{image}-thumb-0.jpg"}
+
+    .clear
+    br
+    br
+    br
+    footer
+      ' &copy;&nbsp;
+      a[href="http://sairam.com/" target="_blank"]Sairam Kunala  
+      ' 2012
+      br
+      | All images, logos and names are copyright of their respective owners.
+      br
+      / P.S. This was some thing I developed in couple of hours. More features to follow. Its plain HTML as you can see it

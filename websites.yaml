@@ -1,0 +1,461 @@
+-
+  site: fotocentreindia.com
+  email:
+    - info@fotocentreindia.com
+    - sales@fotocentreindia.com
+  categories:
+    - cameras
+    - camera accessories
+    - Projectors, Flash, Lens, Tripods, Studio lights, Camera Bags, Rolls, Film, Batteries, Chargers, Reflectors, Filters
+  companies:
+    - Sony, Nikon, Vivitar, Panasonic, Canon, Fujifilm, Kodak, Lowepro, Canon, Nikon, Fuji, Olympus, Kodak, Sony, Samsung, Panasonic, Pentax, Manfrotto, Tamron, Lens, Sigma, Tokina, Hoya, Marumi, Kata
+-
+  site: home.technoguru.in/shop
+  email:
+    - info@technoguru.in
+  generator:
+    - www.prestashop.com
+  categories:
+-
+  site: jjmehta.com/shop
+  email:
+    -  info@jjmehta.com
+    - sales@jjmehta.com
+  categories:
+    - camera, dslr, slr, digital camera, dslr lens, lenses
+  companies:
+    - kodak, canon, nikon, olympus, pentax, fujifilm, sony, panasonic
+-
+  site: letsshop.in
+  email:
+    - support@letsshop.in
+  categories:
+    - Mobile Phones
+    - Cameras
+    - Laptops
+    - Home Appliances
+    - Watches
+    - Computer Accessories
+    - Mobile Accessories
+  companies:
+    - Nokia
+    - Micromax
+    - Samsung
+  hosting:
+    - hostgator
+  code:
+    - php
+  affiliate: true
+-
+  site: shop.seventymm.com
+  email:
+    - shoppingsupport@seventymm.com
+  categories:
+    - Apparel
+    - Footwear
+    - Kids
+    - Computers
+    - Cameras
+    - Game Consoles
+    - Games
+    - Mobile Phones
+    - Speakers
+    - Fashion Accessories
+    - Home Appliances
+    - Furniture
+    - Movies
+    - Music
+    - Books
+    - Stationery
+    - Greeting Cards
+    - Posters
+    - Magazines
+    - Audio Books
+-
+  site: shopping.indiatimes.com
+  email:
+    - customerservice@indiatimes.co.in
+  categories:
+    - Mobiles
+    - Cameras
+    - Flowers
+    - Health & Beauty
+    - Books
+    - Magazines
+    - Jewelery
+    - Computers
+    - Laptops
+    - Home Appliances
+    - Music
+    - Movies
+    - Games
+    - Baby
+  companies:
+    - itc
+    - funskool
+    - softel
+    - himalaya
+    - florista
+-
+  site: shoppingmantra.com
+  email:
+    - shoppingmantra@rediffmail.com
+  generator:
+    - yes / see /admin/
+  categories:
+    - Mobile Phones
+    - Digital Cameras
+    - Apparels
+    - Accessories
+    - Personal Care & Beauty
+    - Automobile Accessories
+    - Cameras
+    - Sports
+    - Toys & Games
+    - Jewellery
+    - Travelling Accessories
+    - Footwear
+    - Health & Fitness
+    - Baby Products
+    - Consumer Electronics
+  code:
+    - php
+-
+  site: www.bagittoday.com
+  email:
+    - response@bagittoday.com
+  categories:
+    -  phones
+    - clothes
+    - jewelry
+    - laptops
+    - perfumes
+    - sunglasses
+  companies:
+    - Blackberry
+    - Reebok
+    - mtv
+    - Dunhill
+    - Calvin Klein
+    - Versace
+    - Armani
+  code:
+    - jsp
+-
+  site: www.bata.in
+  email:
+    - customer.service@bata.co.in
+  categories:
+    - Footwear
+  companies:
+    - hush puppies
+    - bata
+    - weinbrenner
+    - northstar
+    - Scholl
+    - Marie Claire
+    - Power
+
+-
+  site: www.bitfang.com
+  email:
+    - service@bitfang.in
+  categories:
+    - Computer Hardware
+    - Laptops
+    - Networking
+    - Software
+    - Gaming
+    - Cameras
+    - Camera Accessories
+    - Mobile Phones
+    - Audio
+    - Video
+    - GPS Accessories
+  code:
+    - asp
+-
+  site: www.camerastore.co.in
+  categories:
+    - Cameras
+    - Memory Cards
+    - Bags & Cases
+    - Tripods
+    - Camera Accessories
+    - Photo Printer
+    - Studio Lighting
+    - Light Meters
+    - Albums
+    - Remote Controls
+-
+  site: www.coolbuy.in
+  categories:
+-
+  site: www.crossword.in
+  categories:
+-
+  site: www.ebay.in
+  categories:
+-
+  site: www.fabindia.com
+  categories:
+-
+  site: www.flipkart.com
+  categories:
+-
+  site: www.futurebazaar.com
+  categories:
+-
+  site: www.gadgets.in
+  categories:
+-
+  site: www.gadgetsguru.com
+  categories:
+-
+  site: www.greendust.com
+  categories:
+  generator:
+    - creloaded.sf.net
+    - eosonlinemerchant.org / eoscart
+    - XT-Commerce  / http://sourceforge.net/projects/xtcommerce/
+    - oscommres / http://www.elefanteinstaller.com/os-commres/
+    - see http://www.greendust.com/cvv.html - similar one - http://www.thesampleroom.com.au/onlineshop/
+-
+  site: www.homeshop18.com
+  categories:
+-
+  site: www.indiaplaza.com
+  categories:
+-
+  site: www.innomart.in
+  categories:
+    - books
+-
+  site: www.kodakexpress.com
+  categories:
+-
+  site: www.letsbuy.com
+  categories:
+-
+  site: www.moviemart.in
+  categories:
+-
+  site: www.mustard.co.in
+  categories:
+-
+  site: www.mygrahak.com
+  categories:
+-
+  site: www.naaptol.com
+  categories:
+-
+  site: www.next.co.in
+  categories:
+-
+  site: www.retailmart.com
+  categories:
+-
+  site: www.saholic.com
+  categories:
+-
+  site: www.samaan.com
+  categories:
+    -
+  generator:
+    - magento
+# has js/blank.html in the source
+-
+  site: www.shoppersstop.com
+  categories:
+-
+  site: www.snapdeal.com
+  categories:
+-
+  site: www.straightline.in
+  categories:
+-
+  site: www.theitdepot.com
+  categories:
+-
+  site: www.timtara.com
+  categories:
+-
+  site: www.tradus.in
+  categories:
+-
+  site: www.yebhi.com
+  categories:
+-
+  site: www.jabong.com
+  categories:
+-
+  site: www.ezee-shop.com
+  categories:
+-
+  site: www.indiabookstore.net
+  categories:
+-
+  site: www.hyderabadibiryanis.com
+  email:
+    - support@ hyderabadibiryanis.com
+
+-
+  site: www.oliveplanet.in
+  email:
+    -
+  categories:
+    - Military Gear
+
+-
+  site: familykart.com
+  email:
+    -
+  categories:
+    -
+-
+  site: www.bsahercules.com
+  email:
+    -
+  categories:
+    - Sports
+-
+  site: www.sangeethamobiles.com
+  email:
+    -
+  categories:
+    - Mobiles
+-
+  site: www.univercell.in
+  email:
+    -
+  categories:
+    - Mobiles
+-
+  site: www.violetbag.com
+  email:
+    - care@violetbag.com
+  categories:
+    - Health & Beauty
+-
+  site: www.urbantouch.com
+  email:
+    - wecare@urbantouch.com
+  categories:
+    - Health & Beauty
+-
+  site: www.grabmore.in
+  email:
+    -
+  categories:
+    - Health & Beauty
+    - Cameras
+-
+  site: www.myntra.com
+  email:
+    -
+  categories:
+    - Shoes
+    - Apparel
+-
+  site: www.koovs.com
+  email:
+    -
+  categories:
+-
+  site: www.playgroundonline.com
+  email:
+    -
+  categories:
+    - Sports
+-
+  site: www.infibeam.com
+  email:
+  categories:
+-
+  site: www.medplusbeauty.com
+  email:
+    - marketing@medplusbeauty.com
+  categories:
+    - Health & Beauty
+    - Baby Products
+-
+  site: www.lenskart.com
+  email:
+  categories:
+  generator:
+    - magento
+
+-
+  site: www.watchkart.com
+  email:
+  categories:
+  generator:
+    - magento
+-
+  site: www.bagskart.com
+  email:
+  categories:
+  generator:
+    - magento
+-
+  site: www.jewelskart.com
+  email:
+  categories:
+  generator:
+    - magento
+-
+  site: www.inkfruit.com
+-
+  site: www.fashos.com
+-
+  site: www.39shops.com
+-
+  site: www.caratlane.com
+-
+  site: www.suratdiamond.com
+-
+  site: www.bestylish.com
+-
+  site: metroshoes.net
+-
+  site: www.theitdepot.com
+-
+  site: www.letsbuyproducts.com
+-
+  site: www.dogspot.in/shop
+-
+  site: gizmeup.com
+-
+  site: www.babyoye.com
+-
+  site: www.bevyshop.com
+-
+  site: www.esportsbuy.com
+-
+  site: www.mygrahak.com
+-
+  site: www.fetise.com/men
+-
+  site: www.orosilber.com
+-
+  site: www.mysportcart.com
+-
+  site: truefruits.in
+-
+  site: www.simplelife.in
+-
+  site: truefruits.in
+-
+  site: www.bindaasbargain.com
+  categories:
+    - deals
+-
+  site: shersingh.com
+  generator:
+    - magento
+-
+  site: www.snapfish.in
+  categories:
+    - Photo Prints
+
+#   site: www.coupondunia.in
